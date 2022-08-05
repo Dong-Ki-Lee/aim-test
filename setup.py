@@ -57,7 +57,7 @@ REQUIRED = [
     'cryptography==3.0',
     'filelock==3.0.0',
     'numpy>=1.12.0',
-    'protobuf==3.11.0',
+    'protobuf>=3.11.0',
     'psutil==5.6.7',
     'py3nvml==0.2.5',
     'RestrictedPython==5.1',
@@ -71,6 +71,7 @@ REQUIRED = [
     'uvicorn==0.12.0',
     'Pillow==8.0.0',
     'grpcio==1.42.0',
+    'protobuf >= 3.9.2,<4.0.0',
     # fastapi to support python3.6
     'async-exit-stack==1.0.0; python_version<"3.7"',
     'async-generator==1.0; python_version<"3.7"',
