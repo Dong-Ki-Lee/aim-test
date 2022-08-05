@@ -12,7 +12,6 @@ from aim.web.utils import get_db_url
 engine = create_engine(
     get_db_url(),
     echo=(logging.INFO >= int(os.environ.get(AIM_LOG_LEVEL_KEY, logging.WARNING))),
-    connect_args={"check_same_thread": False}
 )
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
