@@ -56,7 +56,7 @@ REQUIRED = [
     'click==7.0',
     'cryptography==3.0',
     'filelock==3.0.0',
-    'numpy==1.12.0',
+    'numpy>=1.12.0',
     'protobuf==3.11.0',
     'psutil==5.6.7',
     'py3nvml==0.2.5',
